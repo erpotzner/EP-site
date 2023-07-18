@@ -1,0 +1,72 @@
+@charset "utf-8";
+body {
+    background-color: #88A886;
+}
+header {
+    margin-top: 0px;
+    margin-right: 0px;
+}
+.mylogo {
+    width: 70px;
+    height: auto;
+    text-align: center;
+}
+h3 {
+    border-top-width: thin;
+    border-top-style: solid;
+    border-bottom-width: thin;
+    border-bottom-style: solid;
+    background-color: #628B68;
+}
+
+footer  {
+    text-align: center;
+    border-top-width: thin;
+    border-top-style: solid;
+    border-bottom-width: thin;
+    border-bottom-style: solid;
+    margin-top: 426px;
+}
+header2 {
+    font-weight: bold;
+    border-width: thin;
+    text-align: center;
+}
+.sectionleft {
+    width: 47%;
+    float: left;
+}
+.sectionright {
+    float: right;
+    width: 45%;
+}
+body.h2 {
+    font-size: small;
+}
+.sectionmid {
+    text-align: center;
+}
+.a {
+    text-align: center;
+}
+/* Form Layout Styles */
+div.formRow {
+	display: flex;
+	flex-flow: row-wrap;
+	margin: 7px 0px;
+}
+
+div.formRow > * {
+	flex: 1 1 150px;
+} 
+
+div#buttons {
+	text-align: center;
+	width: 100%;
+}
+
+input[type='submit'], input[type='reset'] {
+	font-size: 1.2em;
+	padding: 5px;
+	margin: 15px;
+}
